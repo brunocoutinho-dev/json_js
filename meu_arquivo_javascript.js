@@ -77,11 +77,13 @@ capturaEventos(window, 'load', function(evt){
 						// Se for objeto, acessa o valor da maneira alterativa e 
 						// adiciona na div
 						div.innerHTML += '<br>';
+						div.innerHTML += '<br>';
 						div.innerHTML += 'Desenvolver: ' + dadosJSON[propriedade][0].Desenvolver;
 						div.innerHTML += '<br>';
 						div.innerHTML += 'Ler: ' + dadosJSON[propriedade][1].Ler;
 						div.innerHTML += '<br>';
 						div.innerHTML += 'Beber: ' + dadosJSON[propriedade][2].Beber;
+						div.innerHTML += '<br>';
 					}
 				}				
 			}
